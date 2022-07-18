@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Kameron:wght@400;700&display=swap');
+$kameron-font:"'Kameron', serif;";
+$kameron-regular:400;
+$kameron-bold:700;
+$kameron-text-shadow-light-black:0px 4px 4px rgba(0, 0, 0, 0.25);
+:root{
+    font-size: 20px;
+    font-family: $kameron-font;
+    font-weight: $kameron-regular;
+    text-shadow: $kameron-text-shadow-light-black;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    img,video{object-fit: cover;};
+}
